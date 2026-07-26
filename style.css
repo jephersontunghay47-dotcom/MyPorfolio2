@@ -187,7 +187,7 @@ li {
 
 }
 
-
+/* tablet*/
 @media (max-width:768px) {
     .profile {
         flex-direction: column;
@@ -208,6 +208,30 @@ li {
 
     }
 }
+
+/*mobile*/
+@media (max-width:480px) {
+    .profile {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width:480px) {
+    .nav {
+        flex-direction: column;
+
+    }
+}
+
+@media (max-width:480px) {
+    .projects {
+        flex-direction: column;
+
+    }
+}
+
+
 
 .about,
 .skills,
