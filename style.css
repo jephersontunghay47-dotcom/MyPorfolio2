@@ -210,27 +210,6 @@ li {
     }
 }
 
-/*mobile*/
-@media (max-width:600px) {
-    .profile {
-        flex-direction: column;
-        text-align: center;
-    }
-}
-
-@media (max-width:600px) {
-    .nav {
-        flex-direction: column;
-
-    }
-}
-
-@media (max-width:600px) {
-    .projects {
-        flex-direction: column;
-
-    }
-}
 
 
 
