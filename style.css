@@ -191,7 +191,26 @@ li {
 
 
 
+@media (max-width:768px) {
+    .profile {
+        flex-direction: column;
+        text-align: center;
+    }
+}
 
+@media (max-width:768px) {
+    .nav {
+        flex-direction: column;
+
+    }
+}
+
+@media (max-width:768px) {
+    .projects {
+        flex-direction: column;
+
+    }
+}
 
 
 
