@@ -208,11 +208,18 @@ li {
 @media (max-width:600px) {
     .projects {
         flex-direction: column;
-
+    }
+    .card{
+        flex-direction: colmun;
     }
 }
 
+@media (max-width:600px) {
+    .skills {
+        flex-direction: column;
 
+    }
+}
 
 
 
